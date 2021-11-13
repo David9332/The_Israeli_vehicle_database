@@ -15,7 +15,7 @@ public class Run {
             motorCycle = s.nextLine();
             System.out.println();
             Json data = new Json(motorCycle);
-            System.out.println("The details of vehicle no. "+motorCycle+" are:");
+            System.out.println("The details of vehicle number "+motorCycle+" are:");
             System.out.println();
             data.printJsonData();
             System.out.println();
