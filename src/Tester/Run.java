@@ -11,11 +11,9 @@ public class Run {
 
         do {
             Scanner s = new Scanner(System.in);
-            System.out.print("Please enter a motorcycle's licensing number (Only digits): ");
+            System.out.print("Please enter a vehicle's licensing number (Only digits): ");
             motorCycle = s.nextLine();
-            System.out.println();
             Json data = new Json(motorCycle);
-            System.out.println("The details of vehicle number "+motorCycle+" are:");
             System.out.println();
             data.printJsonData();
             System.out.println();
